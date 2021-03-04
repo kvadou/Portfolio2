@@ -7,6 +7,8 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
 import Helmet from "../component/common/Helmet";
+import Doug from "../img/about-5.jpg"
+
 
 const SlideList = [
     {
@@ -58,7 +60,7 @@ class PersonalPortfolio extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-5.jpg" alt="About Images"/>
+                                        <img className="w-100" src={Doug} alt="About Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
