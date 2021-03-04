@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 
 // Create Import File
 import "./index.scss";
+import "../public";
 
 import PersonalPortfolio from "./home/PersonalPortfolio";
 
