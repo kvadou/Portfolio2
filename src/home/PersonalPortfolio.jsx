@@ -7,7 +7,10 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
 import Helmet from "../component/common/Helmet";
-import Doug from "../img/about-5.jpg"
+import Doug from "../img/about-5.jpg";
+//import Code from "../img/about-6.jpg";
+
+
 
 
 const SlideList = [
@@ -29,7 +32,6 @@ class PersonalPortfolio extends Component{
                 <Helmet pageTitle="DPK Portfolio" />
                 
                 <HeaderTwo logo="symbol-dark" color="color-black"/>
-                
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
@@ -60,7 +62,7 @@ class PersonalPortfolio extends Component{
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src={Doug} alt="About Images"/>
+                                        <img className="w-100" src={Doug} alt="Doug Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">
