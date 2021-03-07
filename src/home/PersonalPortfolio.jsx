@@ -7,7 +7,7 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
 import Helmet from "../component/common/Helmet";
-import Doug from "../img/about-5.jpg";
+import Doug from "../img/doug.jpg";
 //import Code from "../img/about-6.jpg";
 
 

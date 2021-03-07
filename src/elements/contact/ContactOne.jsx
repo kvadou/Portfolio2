@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Code from "../../img/about-6.jpg";
+import Code from "../../img/contact-code.jpg";
 
 
 class ContactOne extends Component{
@@ -74,7 +74,7 @@ class ContactOne extends Component{
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2">
                             <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src={Code} alt="trydo"/>
+                                <img src={Code} alt="code"/>
                             </div>
                         </div>
                     </div>
