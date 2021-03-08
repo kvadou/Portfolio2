@@ -8,7 +8,8 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
 import Helmet from "../component/common/Helmet";
 import Doug from "../img/doug.jpg";
-import BackGround from "../img/bg-image-17.jpg";
+//import Background from "../img/bg-image-17.jpg";
+
 
 //import Code from "../img/about-6.jpg";
 
@@ -38,9 +39,8 @@ class PersonalPortfolio extends Component{
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
-                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image">
-                        <img className="w-100" src={BackGround} alt="Background Images"/>
-                            <div className="container">
+                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--17" key={index}>
+                        <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div className={`inner ${value.textPosition}`}>
