@@ -8,7 +8,7 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
 import Helmet from "../component/common/Helmet";
 import Doug from "../img/doug.jpg";
-//import Background from "../img/bg-image-17.jpg";
+////import Background from "../img/bg-image-17.jpg";
 
 
 //import Code from "../img/about-6.jpg";
