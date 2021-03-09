@@ -2,34 +2,31 @@ import React, { Component } from "react";
 
 const PortfolioListContent = [
     {
-        image: 'image-1',
-        category: 'Development',
+        Pimage: 'image-1',
         title: 'Yoke'
     },
     {
         image: 'image-2',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Employee Directory'
     },
     {
         image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Budget Tracker'
     },
     {
         image: 'image-4',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Workout Tracker'
     },
     {
-        image: 'image-3',
+        image: 'image-5',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Eat-Da-Burger'
     },
     {
-        image: 'image-4',
+        image: 'image-6',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Note Taker'
     }
 ]
 
